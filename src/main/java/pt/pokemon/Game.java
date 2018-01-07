@@ -18,7 +18,7 @@ public class Game {
     //verifica se a casa tem um pokemon e se tiver apanha-o
     private void checkHouse(int posX, int posY){
 
-        //se a casa n existir adiciona, se ja exitir sabemos que o pokemon foi apanhado
+        //se a casa nao existir adiciona, se ja exitir sabemos que o pokemon foi apanhado
         if(!world.contains(posX + "," + posY)) {
             world.add(posX + "," + posY);
             numPokemons += 1;
