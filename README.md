@@ -10,7 +10,7 @@ javac -cp .:(.; on Windows){PATH TO JUNIT JAR} src/main/java/pt/pokemon/Game.jav
 ## Run
 
 Run single game:
-- java main.java.pt.pokemon.Main.java [arguments]
+- java main.java.pt.pokemon.Main [arguments]
 
 Example: java src.main.java.pt.pokemon.Main "NESO"
 
